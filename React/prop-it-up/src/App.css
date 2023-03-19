@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.PersonCard {
+  /* border: solid black 1px; */
+  width: 200px;
+  height: 50px;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+p, h2{
+  /* border: solid red 1px; */
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2{
+  margin-bottom: 20px;
+}
