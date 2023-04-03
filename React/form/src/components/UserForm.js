@@ -2,7 +2,8 @@ import React, { useState } from  'react';
     
 const UserForm = (props) => {
     //the below we set out what we will ask for from the user.
-    //we leave the useState empty and simply add quotes instead in order to allow the user an input
+    //we leave the useState empty and simply add quotes instead 
+    //in order to allow the user an input
     const [firstname, setFirstName] = useState("");
     const [lastname, setLastName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,7 +12,8 @@ const UserForm = (props) => {
     
     const createUser = (e) => {
         //created the function createUser
-        // we must prevent the default refresh of the browser to keep our state from being reset
+        // we must prevent the default refresh of the 
+        //browser to keep our state from being reset
         e.preventDefault();
         
         // shorthand ES6 syntax for building an object - see notes above

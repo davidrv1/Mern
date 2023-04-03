@@ -38,9 +38,14 @@ const Form = (props) => {
                 <input type="number" name="releaseYear" onChange={handleReleaseYear}/>
                 {/* what is IMPORTANT though rather than the id is the NAME in input. */}
 
-                <label>Title:</label>
+                <label>Genre:</label>
                 <input type="text" name="genre" onChange={handleGenre}/>
             </form>
+            <div>
+                <label>I've Watched This show</label>
+                <input type="checkbox" name="watchedShow"/>
+            </div>
+            <button>Add Show</button>
         </div>
     )
 }

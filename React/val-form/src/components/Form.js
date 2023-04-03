@@ -16,6 +16,7 @@ const Form = (props) => {
     const [confirmpassword, setConfirmPassword] = useState(""); 
     const [confirmpasswordError, setConfirmPasswordError] = useState("");
 
+
     const handleFirstName = (e) => {
         setFirstName(e.target.value);
         if(e.target.value.length < 1) {
@@ -67,12 +68,12 @@ const Form = (props) => {
     const handleConfirmPassword= (e) => {
         setEmail(e.target.value);
         if(confirmpassword != password) {
-            setEmailError("Confirm password must match password!");
+            setConfirmPasswordError("Confirm password must match password!");
         } else if(confirmpassword != password) {
-            setEmailError("Confirm password must match password!");
+            setConfirmPasswordError("Confirm password must match password!");
         } else {
             // an empty string is considered a "falsy" value
-            setEmailError("");
+            setConfirmPasswordError("");
         }
     }
 
