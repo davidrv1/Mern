@@ -1,0 +1,34 @@
+table{
+    margin: auto;
+}
+th{
+    border: solid black 1px;
+    width: 500px;
+}
+
+.homeLink{
+    /* border: solid black 1px; */
+}
+.fullHalf{
+    display: flex;
+    padding: 0px;
+    margin-left: 300px;
+}
+.leftHalf{
+    border: solid black 1px;
+    padding: 0px;
+}
+.rightHalf{
+    border: solid black 1px;
+    margin-right: 500px;;
+}
+
+.addPet{
+    background-color: #2B77E4;
+    color:white
+}
+
+.adoptPet{
+    background-color: #CF2B27;
+    color: white;
+}
