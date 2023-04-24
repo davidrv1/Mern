@@ -1,0 +1,25 @@
+.line-through{
+    text-decoration: line-through;
+}
+
+.flex-toDo{
+    padding: 10px;
+    justify-items: center;
+    display: flex;
+    border: solid black 1px;
+    width: 250px;
+    justify-content: center;
+    /* flex-direction:column; */
+    margin: auto;
+    align-items: center;
+    /* display:inline-block */
+}
+
+.delete-button{
+    color: white;
+    background-color: black;
+    height: 25px;
+}
+/* .container-aToDo{
+    
+} */
